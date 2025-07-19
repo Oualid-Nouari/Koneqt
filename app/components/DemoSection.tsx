@@ -6,15 +6,15 @@ import CalendlyEmbed from './CalendlyEmbed';
 
 export const DemoSection = () => {
   return (
-    // FIX: Added scroll-mt-24
-    <section id="contact" className="sm:py-32">
+    // FIX: Added py-20 for mobile and sm:py-32 for larger screens
+    <section id="contact" className="py-20 sm:py-32 scroll-mt-24">
       <div className="container mx-auto px-4 sm:px-6">
         <motion.div
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true, amount: 0.5 }}
           transition={{ duration: 0.6 }}
-          className="text-center"
+          className="text-center mb-12"
         >
           <h2 className="text-3xl sm:text-4xl lg:text-5xl font-extrabold text-white">
             Prêt à Gagner des Heures ?

@@ -6,8 +6,8 @@ import { Zap, AlertTriangle } from 'lucide-react';
 
 export const SolutionSection = () => {
   return (
-    // FIX: Added scroll-mt-24 to create a top margin when scrolling to this section
-    <section id="solution" className="pt-20 pb-20 sm:pt-32 sm:pb-32 scroll-mt-24">
+    // FIX: Changed padding to py-20 for mobile and sm:py-32 for larger screens
+    <section id="solution" className="py-20 sm:py-32 scroll-mt-24">
       <div className="container mx-auto px-4 sm:px-6">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
           <motion.div

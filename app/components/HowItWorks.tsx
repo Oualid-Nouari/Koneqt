@@ -24,8 +24,8 @@ const steps = [
 
 export const HowItWorksSection = () => {
   return (
-    // FIX: Added scroll-mt-24
-    <section id="processus" className="sm:py-32 ">
+    // FIX: Added py-20 for mobile and sm:py-32 for larger screens
+    <section id="processus" className="py-20 sm:py-32 scroll-mt-24">
       <div className="container mx-auto px-4 sm:px-6">
         <motion.div
           initial={{ opacity: 0, y: 20 }}
