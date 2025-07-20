@@ -1,24 +1,30 @@
 @import "tailwindcss";
 
 @tailwind base;
-  @tailwind components;
-  @tailwind utilities;
+@tailwind components;
+@tailwind utilities;
 
-  body {
-    background-color: #02040a;
-    color: #ffffff;
-  }
+html {
+  scroll-behavior: smooth;
+}
 
-  .main-container::before {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    background-image:
-      linear-gradient(rgba(255, 255, 255, 0.091) 1px, transparent 1px),
-      linear-gradient(90deg, rgba(255, 255, 255, 0.091) 1px, transparent 1px);
-    background-size: 40px 40px;
-    z-index: -1;
-  }
+body {
+  background-color: #02040a;
+  color: #ffffff;
+}
+
+.main-container::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-image: linear-gradient(
+      rgba(255, 255, 255, 0.091) 1px,
+      transparent 1px
+    ),
+    linear-gradient(90deg, rgba(255, 255, 255, 0.091) 1px, transparent 1px);
+  background-size: 40px 40px;
+  z-index: -1;
+}
