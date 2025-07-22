@@ -13,8 +13,8 @@ const TikTokIcon = (props: React.SVGProps<SVGSVGElement>) => (
 export const Footer = () => {
   const phoneNumber = "+212643791154";
   const whatsappLink = `https://wa.me/${phoneNumber.replace('+', '')}`;
-  const facebookLink = "https://facebook.com/yourpage";
-  const instagramLink = "https://instagram.com/yourpage";
+  const facebookLink = "https://web.facebook.com/profile.php?id=61578613199618";
+  const instagramLink = "https://www.instagram.com/koneqt.ma/";
 
   return (
     <footer className="">
