@@ -50,7 +50,7 @@ export const PricingSection = () => {
             Commencer mon Essai Gratuit
           </a>
           <p className="mt-8 text-lg font-bold text-white">
-            Après le premier mois : <span className="text-white/80 font-semibold">250 DH/mois</span>
+            Après le premier mois : <span className="text-white/80 font-semibold">500 DH/mois</span>
           </p>
         </motion.div>
       </div>
