@@ -32,10 +32,10 @@ export const PricingSection = () => {
         >
           <h3 className="text-2xl font-bold text-[#00a2ff]">Offre de Lancement</h3>
           <p className="mt-4 text-5xl font-extrabold text-white">
-            Votre Premier Mois est Gratuit
+            Gratuit Pour Nos 3 Premiers <span className='text-[#00a2ff]'>Partenaires</span>
           </p>
           <p className="mt-4 text-white/70">
-            Testez notre service complet, sans engagement. Nous mettons en place votre système d'automatisation et vous l'utilisez gratuitement pendant 30 jours pour voir les résultats par vous-même.
+            Nous sommes nouveaux. C'est votre avantage. Laissez-nous vous prouver notre valeur avec une mise en place complète, 100% gratuite et sans risque.
           </p>
           <div className="my-8 border-t border-white/10"></div>
           <div className="text-left space-y-3">
@@ -47,11 +47,9 @@ export const PricingSection = () => {
             href="#contact"
             className="mt-8 inline-block w-full sm:w-auto bg-[#a05cff] text-white font-bold px-8 py-4 rounded-full transition-all duration-300 shadow-lg shadow-[#a05cff]/30 hover:shadow-[#a05cff]/50 hover:scale-105 hover:brightness-110"
           >
-            Commencer mon Essai Gratuit
+            Réserver ma Place de Partenaire
           </a>
-          <p className="mt-8 text-lg font-bold text-white">
-            Après le premier mois : <span className="text-white/80 font-semibold">500 DH/mois</span>
-          </p>
+          
         </motion.div>
       </div>
     </section>
