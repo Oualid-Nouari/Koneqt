@@ -3,17 +3,20 @@
 import React from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
-import { Phone, MessageCircle, Facebook, Instagram } from 'lucide-react';
+// CHANGE 1: Imported Linkedin, removed Facebook
+import { Phone, MessageCircle, Linkedin, Instagram } from 'lucide-react'; 
 import LogoIcon from "../../public/LOGO ICON.png"
 
+// This TikTok icon component is unused in the footer, but we'll leave it in case you need it later.
 const TikTokIcon = (props: React.SVGProps<SVGSVGElement>) => (
-  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" {...props}><path d="M12 12a4 4 0 1 0 4 4V8a8 8 0 1 1-8-8" /></svg>
+  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" {...props}><path d="M12 12a4 4 0 1 0 4 4V8a8 8 0 1 1-8-8" /></svg>
 );
 
 export const Footer = () => {
   const phoneNumber = "+212643791154";
   const whatsappLink = `https://wa.me/${phoneNumber.replace('+', '')}`;
-  const facebookLink = "https://web.facebook.com/profile.php?id=61578613199618";
+  // CHANGE 2: Replaced facebookLink with linkedinLink
+  const linkedinLink = "https://www.linkedin.com/company/getkoneqt"; 
   const instagramLink = "https://www.instagram.com/koneqt.ma/";
 
   return (
@@ -52,8 +55,9 @@ export const Footer = () => {
             <div className="text-center md:text-left">
               <h3 className="font-semibold text-white">Suivez-nous</h3>
               <div className="flex justify-center md:justify-start items-center gap-4 mt-4">
-                <a href={facebookLink} target="_blank" rel="noopener noreferrer" className="text-white/60 hover:text-white transition-colors"><Facebook size={20} /></a>
-                <a href={instagramLink} target="_blank" rel="noopener noreferrer" className="text-white/60 hover:text-white transition-colors"><Instagram size={20} /></a>
+                {/* CHANGE 3: Replaced the Facebook <a> tag with the LinkedIn one */}
+                <a href={instagramLink} target="_blank" rel="noopener noreferrer" className="text-white/60 hover:text-white transition-colors"><Instagram size={25} /></a>
+                <a href={linkedinLink} target="_blank" rel="noopener noreferrer" className="text-white/60 hover:text-white transition-colors border-1 p-1 rounded-sm"><Linkedin size={18} /></a>
               </div>
             </div>
             
