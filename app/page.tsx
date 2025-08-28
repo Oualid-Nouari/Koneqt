@@ -17,7 +17,7 @@ export default function Home() {
       <SolutionSection />
       <HowItWorksSection />
       <PricingSection />
-      <DemoSection />
+      {/* <DemoSection /> */}
       <Footer />
     </main>
   );

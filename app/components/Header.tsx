@@ -63,7 +63,7 @@ export const Header = () => {
             href="#contact"
             className="hidden md:block bg-[#a05cff] text-[#ffffff] font-bold px-6 py-2.5 rounded-full transition-all duration-300 shadow-lg shadow-[#a05cff]/30 hover:shadow-[#a05cff]/50 hover:scale-105 hover:brightness-110"
           >
-            Planifier un Appel
+            Essai Gratuit
           </Link>
           
           <div className="md:hidden">

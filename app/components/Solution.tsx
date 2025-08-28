@@ -38,7 +38,7 @@ export const SolutionSection = () => {
                 <div>
                   <h3 className="text-xl font-bold text-white">L'Ancienne Méthode (La Douleur)</h3>
                   <p className="mt-2 text-white/70">
-                    Copier-coller, calculs manuels, formatage... Un processus lent qui peut prendre des heures et ralentit vos ventes.
+                    Des heures perdues en copier-coller, des calculs manuels sources d'erreurs et un formatage sans fin. Un processus qui frustre vos équipes et ralentit vos ventes.
                   </p>
                 </div>
               </div>
@@ -55,9 +55,9 @@ export const SolutionSection = () => {
                   <Zap className="h-6 w-6 text-[#00a2ff]" />
                 </div>
                 <div>
-                  <h3 className="text-xl font-bold text-[#00a2ff]">La Méthode Koneqt (La Solution)</h3>
+                  <h3 className="text-xl font-bold text-[#00a2ff]">Le Système Koneqt (La Solution)</h3>
                   <p className="mt-2 text-white/90">
-                    Remplissez un formulaire en 60 secondes. Recevez instantanément une proposition PDF parfaite, professionnelle et sans erreur.
+                    Un formulaire simple pour générer deux formats puissants : un PDF professionnel prêt à envoyer et un lien éditable pour une flexibilité totale. La proposition parfaite, à chaque fois.
                   </p>
                 </div>
               </div>

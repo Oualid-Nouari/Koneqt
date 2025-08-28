@@ -2,23 +2,23 @@
 
 import React from 'react';
 import { motion } from 'framer-motion';
-import { Phone, FileCog, Send } from 'lucide-react';
+import { FileText, Settings, Send } from 'lucide-react';
 
 const steps = [
   {
-    icon: Phone,
-    title: "Prise de Contact & Démo",
-    description: "Nous organisons un appel gratuit pour comprendre vos besoins. Vous nous montrez une de vos propositions commerciales, et si vous n'en avez pas, nous en créons une pour vous."
+    icon: FileText,
+    title: "Étape 1: Remplissez notre formulaire de démarrage.",
+    description: "Dites-nous qui vous êtes et partagez vos éléments de marque (logo, couleurs)."
   },
   {
-    icon: FileCog,
-    title: "Création de Votre Modèle Dynamique",
-    description: "Notre équipe transforme votre proposition statique en une version intelligente et dynamique, prête à être automatisée."
+    icon: Settings,
+    title: "Étape 2: Nous configurons votre système.",
+    description: "Notre équipe prépare votre espace personnalisé sous 48h. Aucune action n'est requise de votre part."
   },
   {
     icon: Send,
-    title: "Recevez Votre Système de Génération",
-    description: "Nous vous livrons un lien vers un formulaire privé. Remplissez-le en 60 secondes et recevez instantanément un PDF parfait dans votre email, prêt à être envoyé."
+    title: "Étape 3: Lancez votre essai gratuit.",
+    description: "Recevez vos accès par email et commencez à générer vos propositions."
   }
 ];
 

@@ -40,13 +40,13 @@ export const HeroSection = () => {
         </motion.div>
         
         <motion.h1 variants={itemVariants} className="text-4xl sm:text-5xl lg:text-6xl font-extrabold text-[#ffffff] leading-tight mb-4">
-          Passez moins de temps sur <span className="text-[#00a2ff]">vos devis.</span>
+          Créez Vos Propositions<span className="text-[#00a2ff]"> Commerciales.</span> 
           <br />
-          Gagnez plus de clients.
+          En Moins de 5 Minutes.
         </motion.h1>
         
         <motion.p variants={itemVariants} className="text-base sm:text-lg lg:text-xl text-[#ffffff]/70 max-w-md sm:max-w-2xl mx-auto mb-8">
-          Nous transformons la création de vos propositions commerciales en un processus de 60 secondes.
+          Nous transformons la création de vos propositions commerciales en un processus de 5 minutes, en remplissant un simple formulaire.
         </motion.p>
         
         <motion.div variants={itemVariants} className="flex flex-col sm:flex-row items-center justify-center gap-4">
@@ -54,7 +54,7 @@ export const HeroSection = () => {
             href="#contact"
             className="w-full sm:w-auto bg-[#a05cff] text-[#ffffff] font-bold px-8 py-3 rounded-full transition-all duration-300 shadow-lg shadow-[#a05cff]/30 hover:shadow-[#a05cff]/50 hover:scale-105 hover:brightness-110"
           >
-            Démo Gratuite
+            Démarrer Mon Essai
           </a>
           <a
             href="#processus"
